@@ -384,10 +384,10 @@ function postSummaryCollection(input)
 
 	app.controller("testController", function($scope, ExecutiveSummaries, ExecutiveSummaryDataModel){
         var input = [];
-        input['accountId'] = 14;
+        input['accountId'] = 39;
         input['body'] = new ExecutiveSummaryDataModel({"key":"value"});
-        input['page'] = 14;
-        input['pagesize'] = 14;
+        input['page'] = 39;
+        input['pagesize'] = 39;
         input['orderby'] = 'orderby';
         input['type'] = 'type';
 
@@ -580,10 +580,10 @@ function postScheduledReportsCollection(input)
 
 	app.controller("testController", function($scope, ScheduledReports, ScheduledReportDataModel){
         var input = [];
-        input['accountId'] = 14;
+        input['accountId'] = 39;
         input['body'] = new ScheduledReportDataModel({"key":"value"});
-        input['page'] = 14;
-        input['pagesize'] = 14;
+        input['page'] = 39;
+        input['pagesize'] = 39;
         input['orderby'] = 'orderby';
 
 

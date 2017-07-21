@@ -244,16 +244,16 @@ def post_summary_collection(options = Hash.new); end
 ```ruby
 collect = Hash.new
 
-account_id = 197
+account_id = 89
 collect['account_id'] = account_id
 
 body = ExecutiveSummaryDataModel.new
 collect['body'] = body
 
-page = 197
+page = 89
 collect['page'] = page
 
-pagesize = 197
+pagesize = 89
 collect['pagesize'] = pagesize
 
 orderby = 'orderby'
@@ -415,16 +415,16 @@ def post_scheduled_reports_collection(options = Hash.new); end
 ```ruby
 collect = Hash.new
 
-account_id = 197
+account_id = 89
 collect['account_id'] = account_id
 
 body = ScheduledReportDataModel.new
 collect['body'] = body
 
-page = 197
+page = 89
 collect['page'] = page
 
-pagesize = 197
+pagesize = 89
 collect['pagesize'] = pagesize
 
 orderby = 'orderby'

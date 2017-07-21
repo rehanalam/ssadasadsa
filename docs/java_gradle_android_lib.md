@@ -289,16 +289,16 @@ void postSummaryCollectionAsync(
 try {
 PostSummaryCollectionInput collect = new PostSummaryCollectionInput();
 
-    int accountId = 155;
+    int accountId = 180;
 collect.setAccountId(accountId);
 
     ExecutiveSummaryDataModel body = new ExecutiveSummaryDataModel();
 collect.setBody(body);
 
-    Integer page = 155;
+    Integer page = 180;
 collect.setPage(page);
 
-    Integer pagesize = 155;
+    Integer pagesize = 180;
 collect.setPagesize(pagesize);
 
     String orderby = "orderby";
@@ -504,16 +504,16 @@ void postScheduledReportsCollectionAsync(
 try {
 PostScheduledReportsCollectionInput collect = new PostScheduledReportsCollectionInput();
 
-    int accountId = 155;
+    int accountId = 180;
 collect.setAccountId(accountId);
 
     ScheduledReportDataModel body = new ScheduledReportDataModel();
 collect.setBody(body);
 
-    Integer page = 155;
+    Integer page = 180;
 collect.setPage(page);
 
-    Integer pagesize = 155;
+    Integer pagesize = 180;
 collect.setPagesize(pagesize);
 
     String orderby = "orderby";

@@ -236,16 +236,16 @@ Task<SDK.Intelligence.Models.ExecutiveSummaryDataModel> PostSummaryCollection(SD
 ```csharp
 PostSummaryCollectionInput collect = new PostSummaryCollectionInput();
 
-int accountId = 105;
+int accountId = 39;
 collect.AccountId = accountId;
 
 var body = new SDK.Intelligence.Models.ExecutiveSummaryDataModel();
 collect.Body = body;
 
-int? page = 105;
+int? page = 39;
 collect.Page = page;
 
-int? pagesize = 105;
+int? pagesize = 39;
 collect.Pagesize = pagesize;
 
 string morderby = "orderby";
@@ -407,16 +407,16 @@ Task<SDK.Intelligence.Models.ScheduledReportDataModel> PostScheduledReportsColle
 ```csharp
 PostScheduledReportsCollectionInput collect = new PostScheduledReportsCollectionInput();
 
-int accountId = 105;
+int accountId = 39;
 collect.AccountId = accountId;
 
 var body = new SDK.Intelligence.Models.ScheduledReportDataModel();
 collect.Body = body;
 
-int? page = 105;
+int? page = 39;
 collect.Page = page;
 
-int? pagesize = 105;
+int? pagesize = 39;
 collect.Pagesize = pagesize;
 
 string morderby = "orderby";
