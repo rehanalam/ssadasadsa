@@ -267,16 +267,16 @@ func (me *EXECUTIVESUMMARIES_IMPL) PostSummaryCollection(input *PostSummaryColle
 ```go
 collect := new (executivesummaries_pkg.PostSummaryCollectionInput)
 
-accountId,_ := strconv.ParseInt("155", 10, 8)
+accountId,_ := strconv.ParseInt("221", 10, 8)
 collect.AccountId = accountId
 
 var body *models_pkg.ExecutiveSummaryDataModel
 collect.Body = body
 
-page,_ := strconv.ParseInt("155", 10, 8)
+page,_ := strconv.ParseInt("221", 10, 8)
 collect.Page = page
 
-pagesize,_ := strconv.ParseInt("155", 10, 8)
+pagesize,_ := strconv.ParseInt("221", 10, 8)
 collect.Pagesize = pagesize
 
 orderby := "orderby"
@@ -442,16 +442,16 @@ func (me *SCHEDULEDREPORTS_IMPL) PostScheduledReportsCollection(input *PostSched
 ```go
 collect := new (scheduledreports_pkg.PostScheduledReportsCollectionInput)
 
-accountId,_ := strconv.ParseInt("155", 10, 8)
+accountId,_ := strconv.ParseInt("221", 10, 8)
 collect.AccountId = accountId
 
 var body *models_pkg.ScheduledReportDataModel
 collect.Body = body
 
-page,_ := strconv.ParseInt("155", 10, 8)
+page,_ := strconv.ParseInt("221", 10, 8)
 collect.Page = page
 
-pagesize,_ := strconv.ParseInt("155", 10, 8)
+pagesize,_ := strconv.ParseInt("221", 10, 8)
 collect.Pagesize = pagesize
 
 orderby := "orderby"

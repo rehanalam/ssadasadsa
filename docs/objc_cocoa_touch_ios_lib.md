@@ -225,10 +225,10 @@ function postSummaryCollectionAsyncWithPostSummaryCollectionInput:(PostSummaryCo
 ```objc
     // Parameters for the API call
     PostSummaryCollectionInput *input = [[PostSummaryCollectionInput alloc]init];
-    input.accountId = 14;
+    input.accountId = 122;
     input.body = [[ExecutiveSummaryDataModel alloc]init];
-    input.page = 14;
-    input.pagesize = 14;
+    input.page = 122;
+    input.pagesize = 122;
     input.orderby = @"orderby";
     input.type = @"type";
 
@@ -385,10 +385,10 @@ function postScheduledReportsCollectionAsyncWithPostScheduledReportsCollectionIn
 ```objc
     // Parameters for the API call
     PostScheduledReportsCollectionInput *input = [[PostScheduledReportsCollectionInput alloc]init];
-    input.accountId = 14;
+    input.accountId = 122;
     input.body = [[ScheduledReportDataModel alloc]init];
-    input.page = 14;
-    input.pagesize = 14;
+    input.page = 122;
+    input.pagesize = 122;
     input.orderby = @"orderby";
 
     [self.scheduledReports postScheduledReportsCollectionAsyncWithPostScheduledReportsCollectionInput: input completionBlock:^(BOOL success, HttpContext* context, ScheduledReportDataModel* response, NSError* error) { 
