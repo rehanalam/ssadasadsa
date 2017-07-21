@@ -255,16 +255,16 @@ def post_summary_collection(self,
 ```python
 collect = {}
 
-account_id = 221
+account_id = 127
 collect['account_id'] = account_id
 
 body = ExecutiveSummaryDataModel()
 collect['body'] = body
 
-page = 221
+page = 127
 collect['page'] = page
 
-pagesize = 221
+pagesize = 127
 collect['pagesize'] = pagesize
 
 orderby = 'orderby'
@@ -430,16 +430,16 @@ def post_scheduled_reports_collection(self,
 ```python
 collect = {}
 
-account_id = 221
+account_id = 127
 collect['account_id'] = account_id
 
 body = ScheduledReportDataModel()
 collect['body'] = body
 
-page = 221
+page = 127
 collect['page'] = page
 
-pagesize = 221
+pagesize = 127
 collect['pagesize'] = pagesize
 
 orderby = 'orderby'

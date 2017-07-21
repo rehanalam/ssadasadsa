@@ -276,16 +276,16 @@ function postSummaryCollection($options)
 #### Example Usage
 
 ```php
-$accountId = 58;
+$accountId = 219;
 $collect['accountId'] = $accountId;
 
 $body = new ExecutiveSummaryDataModel();
 $collect['body'] = $body;
 
-$page = 58;
+$page = 219;
 $collect['page'] = $page;
 
-$pagesize = 58;
+$pagesize = 219;
 $collect['pagesize'] = $pagesize;
 
 $orderby = 'orderby';
@@ -443,16 +443,16 @@ function postScheduledReportsCollection($options)
 #### Example Usage
 
 ```php
-$accountId = 58;
+$accountId = 219;
 $collect['accountId'] = $accountId;
 
 $body = new ScheduledReportDataModel();
 $collect['body'] = $body;
 
-$page = 58;
+$page = 55;
 $collect['page'] = $page;
 
-$pagesize = 58;
+$pagesize = 55;
 $collect['pagesize'] = $pagesize;
 
 $orderby = 'orderby';

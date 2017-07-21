@@ -254,10 +254,10 @@ function postSummaryCollection(input, callback)
 ```javascript
 
     var input = [];
-        input['accountId'] = 80;
+        input['accountId'] = 241;
         input['body'] = new ExecutiveSummaryDataModel({"key":"value"});
-        input['page'] = 80;
-        input['pagesize'] = 80;
+        input['page'] = 241;
+        input['pagesize'] = 241;
         input['orderby'] = 'orderby';
         input['type'] = 'type';
 
@@ -409,10 +409,10 @@ function postScheduledReportsCollection(input, callback)
 ```javascript
 
     var input = [];
-        input['accountId'] = 80;
+        input['accountId'] = 77;
         input['body'] = new ScheduledReportDataModel({"key":"value"});
-        input['page'] = 80;
-        input['pagesize'] = 80;
+        input['page'] = 77;
+        input['pagesize'] = 77;
         input['orderby'] = 'orderby';
 
     controller.postScheduledReportsCollection(input, function(error, response, context) {
